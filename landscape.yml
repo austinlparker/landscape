@@ -192,7 +192,8 @@ landscape:
 
                 Our goal is to make an open platform to enable Edge computing, extending native containerized application orchestration capabilities to hosts at
                 Edge
-              summary_business_use_case: >
+              
+              : >
                 KubeEdge has found widespread adoption across multiple industries, including transportation, energy, internet, CDN, manufacturing, and smart
                 campuses. Some of the notable use cases include:
 
@@ -8521,6 +8522,15 @@ landscape:
               gitter_url: https://gitter.im/open-telemetry/community
               specification: true
               clomonitor_name: open-telemetry
+              summary_personas: Developers, SREs, Platform Engineers, DevOps
+              summary_tags: monitoring, observability, tracing, metrics, logs
+              summary_use_case: Performance monitoring and telemetry data for cloud-native systems.
+              summary_business_use_case: >-
+                OpenTelemetry seeks to make observability a built-in part of cloud native systems by providing a standard API, SDK, data model, and toolchain
+                for the creation and collection of performance telemetry. 
+              summary_release_rate: Monthly
+              summary_integrations: Jaeger, Prometheus, and a [wide ecosystem of integrations](https://opentelemetry.io/ecosystem/)
+              summary_intro_url: 'https://opentelemetry.io/ecosystem/demo/'
           - item:
             name: OpenTracing
             homepage_url: https://opentracing.io/
